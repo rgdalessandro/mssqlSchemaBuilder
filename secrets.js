@@ -5,4 +5,4 @@ var dbConfig = {
     "database": "clutchdb"
 };
 
-module.exports{ dbConfig: dbConfig };
+module.exports = { dbConfig: dbConfig };
