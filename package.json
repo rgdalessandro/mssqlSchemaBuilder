@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node express.js"
+    "start": "node ./schema_builder/schema_builder.js"
   },
   "dependencies": {
     "fs": "0.0.1-security",

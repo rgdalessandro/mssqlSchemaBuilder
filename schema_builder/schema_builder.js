@@ -30,17 +30,19 @@ setTimeout(function(){
     preTables.forEach(file => {
 	    runSQL(tables + '/' + file);
 	});
-}, 1000);
+}, 750);
 
 // Third, generate all remaining tables
 setTimeout(function(){
 	console.log('\nGenerating remaining tables...');
+}, 1000);
+setTimeout(function(){
 	generateFileNames(tables);
-}, 3000);
-
+}, 2000);
 setTimeout(function(){
 	console.log('\nAll done!\n');
-}, 5000);
+	process.exit();
+}, 3000);
 
 // This function creates an array of all table filenames within the tab folder
 // and removes the preTables that were already generated
