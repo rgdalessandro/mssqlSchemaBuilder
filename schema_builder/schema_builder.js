@@ -42,7 +42,7 @@ setTimeout(function(){
 setTimeout(function(){
 	console.log('\nAll done!\n');
 	process.exit();
-}, 3000);
+}, 5000);
 
 // This function creates an array of all table filenames within the tab folder
 // and removes the preTables that were already generated

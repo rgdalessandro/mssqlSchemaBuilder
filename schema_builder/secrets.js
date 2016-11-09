@@ -1,8 +1,13 @@
 var dbConfig = {  
-    "server": "127.0.0.1",
-    "user": "",
-    "password": "",
-    "database": ""
+  "server": "",
+  "user": "",
+  "password": "",
+  "database": "",
+  "pool": {
+    "max": 10,
+    "min": 4,
+    "idleTimeoutMillis": 30000
+  }
 };
 
 module.exports = { dbConfig: dbConfig };
